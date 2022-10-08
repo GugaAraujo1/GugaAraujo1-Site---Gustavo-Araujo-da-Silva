@@ -202,6 +202,11 @@ footer {
     margin: 5px 0 0;
 }
 
+.opcoes-titulo{
+    font-style:arial;
+    font-size: 30px;
+}
+
 .blocos {
     display: flex;
     align-items: center;
@@ -225,6 +230,14 @@ footer {
     border-color: white;
 }
 
+.bloco1:hover{
+    border-color: black;
+}
+
+.bloco1:hover h3{
+    font-size: 25px;
+}
+
 .bloco2 {
     padding: 10px;
     text-align: center;
@@ -241,6 +254,14 @@ footer {
     border-color: white;
 }
 
+.bloco2:hover{
+    border-color: black;
+}
+
+.bloco2:hover h3{
+    font-size: 25px;
+}
+
 .bloco3 {
     padding: 10px;
     text-align: center;
@@ -255,6 +276,14 @@ footer {
     font-size: large;
     border-style: solid;
     border-color: white;
+}
+
+.bloco3:hover{
+    border-color: black;
+}
+
+.bloco3:hover h3{
+    font-size: 25px;
 }
 
 .escuros {
